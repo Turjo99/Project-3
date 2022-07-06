@@ -15,7 +15,7 @@ body {
     url("images/donation9.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
+  height: 850px;
 }
 h1 {
   font-size: 70px;
@@ -38,20 +38,20 @@ h3 {
 }
 .container {
   position: relative;
-  top: 180px;
+  top: 260px;
   text-align: center;
   color: aliceblue;
 }
 
 p {
-  font-size: 16px;
+  font-size: 19px;
   margin-top: 15px;
 }
 .btn {
   margin-top: 40px;
 }
 .margin-top {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 a {
   text-decoration: none;
@@ -131,6 +131,9 @@ input::placeholder {
 #card2 {
   background-color: rgb(228, 227, 227);
 }
+.subscribe {
+  margin-top: 100px;
+}
 .sub {
   text-align: center;
   background-color: bisque;
@@ -172,4 +175,19 @@ input[type="submit"] {
 .footer span {
   color: tomato;
   font-family: "Yellowtail", cursive;
+}
+.members {
+  display: flex;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.members img {
+  width: 50%;
+  border-radius: 50%;
+}
+.member {
+  width: 33.33%;
+  margin-top: 50px;
 }
