@@ -12,7 +12,7 @@ body {
       rgba(55, 82, 237, 0.52),
       rgba(0, 0, 0, 0.939)
     ),
-    url("/images/donation9.jpg");
+    url("images/donation9.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 700px;
@@ -96,6 +96,7 @@ a {
 
 input::placeholder {
   text-align: center;
+  font-size: 14px;
 }
 .features {
   margin-top: 150px;
@@ -129,4 +130,46 @@ input::placeholder {
 
 #card2 {
   background-color: rgb(228, 227, 227);
+}
+.sub {
+  text-align: center;
+  background-color: bisque;
+  margin-top: 100px;
+  width: 40%;
+  padding: 70px;
+  text-align: center;
+  position: relative;
+  left: 26%;
+  border-radius: 10px;
+}
+li {
+  display: inline;
+  text-decoration: none;
+}
+input[type="email"] {
+  background-color: rgb(230, 230, 230);
+  width: 40%;
+  padding: 14px;
+}
+input[type="email"]::placeholder {
+  font-size: 17px;
+}
+input[type="submit"] {
+  background-color: tomato;
+  width: 20%;
+  padding: 14px;
+  position: relative;
+  right: 5px;
+  color: aliceblue;
+  font-size: 17px;
+}
+.footer {
+  background-color: #000321;
+  padding: 100px;
+  color: aliceblue;
+  margin-top: 100px;
+}
+.footer span {
+  color: tomato;
+  font-family: "Yellowtail", cursive;
 }
