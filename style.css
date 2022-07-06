@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+.header {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(55, 82, 237, 0.52),
+      rgba(0, 0, 0, 0.939)
+    ),
+    url("/images/donation9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+h1 {
+  font-size: 70px;
+
+  letter-spacing: 10px;
+  font-weight: 900;
+  text-shadow: -3px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
+  /* text-align: center; */
+}
+h2 {
+  font-size: 50px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 30px;
+}
+.center {
+  text-align: center;
+}
+.container {
+  position: relative;
+  top: 180px;
+  text-align: center;
+  color: aliceblue;
+}
+
+p {
+  font-size: 16px;
+  margin-top: 15px;
+}
+.btn {
+  margin-top: 40px;
+}
+.margin-top {
+  margin-top: 40px;
+}
+a {
+  text-decoration: none;
+  padding: 16px;
+  background-color: tomato;
+  border-radius: 30px;
+  color: aliceblue;
+}
+.donate {
+  margin-top: 120px;
+}
+.donation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.amount {
+  width: 120px;
+  font-size: 25px;
+  padding: 30px 10px 30px 10px;
+  margin: 10px;
+  background-color: rgb(225, 225, 225);
+  border-radius: 6px;
+  text-align: center;
+}
+#red {
+  background-color: rgb(255, 171, 171);
+  color: rgb(254, 0, 0);
+  border: red 2px solid;
+}
+.form {
+  text-align: center;
+  margin-top: 50px;
+}
+.other {
+  text-decoration: none;
+  width: 400px;
+  padding: 10px;
+  border-bottom: 3px black solid;
+}
+
+input::placeholder {
+  text-align: center;
+}
+.features {
+  margin-top: 150px;
+}
+.cards {
+  display: flex;
+  margin-top: 100px;
+
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.card {
+  height: 300px;
+  width: 35%;
+  margin: 15px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 2px -9px 27px -5px rgba(107, 107, 107, 0.75);
+  -webkit-box-shadow: 2px -9px 27px -5px rgba(107, 107, 107, 0.75);
+  -moz-box-shadow: 2px -9px 27px -5px rgba(107, 107, 107, 0.75);
+  margin-bottom: 100px;
+}
+#card1 {
+  background-color: bisque;
+}
+#card3 {
+  background-color: rgb(251, 217, 217);
+}
+
+#card2 {
+  background-color: rgb(228, 227, 227);
+}
